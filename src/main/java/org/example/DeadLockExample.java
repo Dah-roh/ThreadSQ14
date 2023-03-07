@@ -42,7 +42,8 @@ public class DeadLockExample{
         };
 
         thread1.start();
-        thread1.join();
+        //uncomment code below to fix deadlock
+//        thread1.join();
         thread2.start();
 
     }
