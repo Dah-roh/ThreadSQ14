@@ -8,7 +8,7 @@ public class DeadLockExample{
         final String lock2 = "LOCK TWO";
         Thread thread1 = new Thread() {
             public void run() {
-                //first synchroni
+                //first synchronized block nests a block
                 synchronized (lock1) {
                     System.out.println("Thread 1: is using the first lock");
                     try{
@@ -16,7 +16,7 @@ public class DeadLockExample{
                     }
                     catch (InterruptedException exception){
                     }
-                    //waiting for thread 2 to release lock2...
+                    //second block cannot be accessed because thread2 has lock2
                     synchronized (lock2){
                         System.out.println("Thread 1: is using the second lock");
 
@@ -33,6 +33,7 @@ public class DeadLockExample{
                     }
                     catch (InterruptedException exception){
                     }
+                    //second block cannot be accessed because thread1 has lock1
                     synchronized (lock1){
                         System.out.println("Thread 2: is using the first lock");
                     }

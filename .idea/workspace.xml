@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f698d79a-780f-4228-b1b9-825558d86258" name="Changes" comment="&quot;adds atomicReferenceArray to ExampleThread&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DeadLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScheduledTaskExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f698d79a-780f-4228-b1b9-825558d86258" name="Changes" comment="adds scheduledTaskExample" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678089265659</updated>
-      <workItem from="1678089268036" duration="10934000" />
+      <workItem from="1678089268036" duration="11381000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;adds atomicReferenceArray to ExampleThread&quot;">
       <created>1678097100895</created>
@@ -106,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678097100896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adds scheduledTaskExample">
+      <created>1678183332473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678183332473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;adds atomicReferenceArray to ExampleThread&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;adds atomicReferenceArray to ExampleThread&quot;" />
+    <MESSAGE value="adds scheduledTaskExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds scheduledTaskExample" />
   </component>
 </project>
