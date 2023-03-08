@@ -35,6 +35,9 @@ public class VerificationScheduler {
         for (int i = 0; i < listOfResgisteredUsers.size(); i++) {
             //TODO: Research Atomic Operation
             final int finalI = i;
+            //fixed the time delay...
+            //by reducing the i after it's initial/first loop
+            final int delay = i>1?i-1:i;
             scheduledExecutorService.schedule(new Runnable() {
                 @Override
                 public void run() {
@@ -47,8 +50,7 @@ public class VerificationScheduler {
                                 ", please hurry up and get your email verified so you can enjoy the multitude of services we offer!");
                     }
                 }
-                //TODO:fix the time delay here
-            }, finalI*5, TimeUnit.SECONDS);
+            }, delay*5, TimeUnit.SECONDS);
 
         }
         //shutdown your executor service to stop application.
