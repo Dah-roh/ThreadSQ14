@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f698d79a-780f-4228-b1b9-825558d86258" name="Changes" comment="add verfication scheduler for email verification scheduler" />
+    <list default="true" id="f698d79a-780f-4228-b1b9-825558d86258" name="Changes" comment="changes scheduler timeunits to seconds">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultithreadedCounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VerificationScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/VerificationScheduler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +61,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VerificationScheduler">
+  <component name="RunManager" selected="JUnit.MultithreadedCounterTest.testCounter">
     <configuration name="DeadLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DeadLockExample" />
       <module name="ThreadsSQ14" />
@@ -93,8 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultithreadedCounterTest.testCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThreadsSQ14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MultithreadedCounterTest" />
+      <option name="METHOD_NAME" value="testCounter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultithreadedCounterTest.testCounter" />
         <item itemvalue="Application.VerificationScheduler" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DeadLockExample" />
@@ -109,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678089265659</updated>
-      <workItem from="1678089268036" duration="15516000" />
+      <workItem from="1678089268036" duration="18622000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;adds atomicReferenceArray to ExampleThread&quot;">
       <created>1678097100895</created>
@@ -146,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678266602219</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changes scheduler timeunits to seconds">
+      <created>1678266716320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678266716320</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +188,7 @@
     <MESSAGE value="&quot;adds atomicReferenceArray to ExampleThread&quot;" />
     <MESSAGE value="adds scheduledTaskExample" />
     <MESSAGE value="add verfication scheduler for email verification scheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="add verfication scheduler for email verification scheduler" />
+    <MESSAGE value="changes scheduler timeunits to seconds" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes scheduler timeunits to seconds" />
   </component>
 </project>

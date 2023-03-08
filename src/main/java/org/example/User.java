@@ -12,7 +12,5 @@ public class User {
     private String password = "09dgdg56";
     private Status verificationStatus = Status.ZERO;
 
-    enum Status{
-        ZERO, ONE
-    }
+
 }
