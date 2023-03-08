@@ -36,7 +36,7 @@ public class VerificationScheduler {
             //TODO: Research Atomic Operation
             final int finalI = i;
             //fixed the time delay...
-            //by reducing the i after it's initial/first loop
+            //by reducing  'i' after it's initial/first loop
             final int delay = i>1?i-1:i;
             scheduledExecutorService.schedule(new Runnable() {
                 @Override
