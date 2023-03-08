@@ -47,7 +47,7 @@ public class VerificationScheduler {
                             ", please hurry up and get your email verified so you can enjoy the multitude of services we offer!");
                 }
             }
-        }, finalI, TimeUnit.MINUTES);
+        }, finalI, TimeUnit.SECONDS);
 
         }
 

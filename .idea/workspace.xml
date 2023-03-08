@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f698d79a-780f-4228-b1b9-825558d86258" name="Changes" comment="adds scheduledTaskExample">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/VerificationScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f698d79a-780f-4228-b1b9-825558d86258" name="Changes" comment="add verfication scheduler for email verification scheduler" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678089265659</updated>
-      <workItem from="1678089268036" duration="15206000" />
+      <workItem from="1678089268036" duration="15516000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;adds atomicReferenceArray to ExampleThread&quot;">
       <created>1678097100895</created>
@@ -144,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678185019173</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add verfication scheduler for email verification scheduler">
+      <created>1678266602219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678266602219</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;adds atomicReferenceArray to ExampleThread&quot;" />
     <MESSAGE value="adds scheduledTaskExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds scheduledTaskExample" />
+    <MESSAGE value="add verfication scheduler for email verification scheduler" />
+    <option name="LAST_COMMIT_MESSAGE" value="add verfication scheduler for email verification scheduler" />
   </component>
 </project>
