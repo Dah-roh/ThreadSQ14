@@ -8,7 +8,12 @@ public class Main {
         ScheduledTaskExample scheduledTaskExample =  new ScheduledTaskExample();
         timer.schedule(scheduledTaskExample, 5000, 1000);
 
-//LOOP FOR SCHEDULEDEXECUTRORSERVICE...
+
+
+
+
+
+
 //        ExampleThread exampleThread =  new ExampleThread();
 //        Thread thread1 = new Thread(exampleThread, "thread 1");
 //        Thread thread2 = new Thread(exampleThread, "thread 2");
